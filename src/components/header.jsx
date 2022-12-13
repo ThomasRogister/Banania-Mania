@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header>
-      <img className="header__logo_btn" src={logo_btn} alt="logo banane" />
+      <Link to="/" className="header__logout">
+        <img className="header__logo_btn" src={logo_btn} alt="logo banane" />
+      </Link>
       <img
         className="header__logo_font"
         src={logo_font}
@@ -14,7 +16,7 @@ function Header() {
       />
       <nav className="header__nav">
         <Link to="/" className="header__logout">
-          Log-out
+          Log out
         </Link>
         <Link to="/About" className="header__basket">
           Panier

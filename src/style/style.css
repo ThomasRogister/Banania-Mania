@@ -4,6 +4,7 @@ html{
     padding: 0;
     background-image: url(../assets/background\ bananas.png);
     background-size: 140%;
+ 
 }
 
 .index__template {
@@ -52,6 +53,15 @@ header{
     height: 120px;
 }
 
+.header__nav a {
+    font-family: 'Satisfy', cursive;
+    color: #d0c621;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.8);
+    font-size: 25px;
+    padding: 0 40px;
+    text-decoration: none;
+}
+
 /**************************APP******************/
 
 .index__content{
@@ -89,6 +99,13 @@ margin: 5px;
 
 
 /*********************HOME********************/
+.home__logo_font{
+    height: 150px;
+}
+
+.home header{
+    display: none;
+}
 
 
 
