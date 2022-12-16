@@ -7,7 +7,7 @@ function Header() {
   return (
     <header>
       <div className="top_header">
-        <Link to="/" className="header__logout">
+        <Link to="/products" className="header__logout">
           <img className="header__logo_btn" src={logo_btn} alt="logo banane" />
         </Link>
         <nav className="header__nav">

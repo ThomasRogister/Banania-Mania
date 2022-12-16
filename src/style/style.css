@@ -58,7 +58,6 @@ header{
 
 .header__nav a {
     font-family: 'Satisfy', cursive;
-    
     color: #e7dd1f;
     text-shadow: 3px 3px 2px rgba(0,0,0,0.8);
     font-size: 25px;
@@ -116,10 +115,43 @@ margin: 5px;
 
 /*********************ERROR*********************/
 
-.error404{
-height: 400px;
+.error {
+  
+    font-family: 'Satisfy', cursive;
+    color: #e7dd1f;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.8);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
+.error__404{
+    
+    text-shadow: 16px 20px 10px rgba(0,0,0,0.8);
+    margin: 0;
+    font-size: 350px;
+}
+
+.error__indications{
+    font-size: 45px;
+    margin: 0;
+}
+
+.error__BackLink{
+    font-size: 30px;
+    color: #e7dd1f;
+}
+
+.bananaSkin{
+ 
+    /* opacity: 0.6; */
+    padding-left: 70px;
+    height: 600px;
+    top: -100px;
+    right: 100px;
+}
 
 /*********************PRODUCTS******************/
 
@@ -146,7 +178,8 @@ height: 400px;
 
 /**********************CARD*************/
 .card{
-    background-color: rgb(52, 129, 129);
+    background-color: rgba(0, 0, 0, 0.7);
+    
     border-radius: 15px;
     width: 150px;
     height: 350px;
