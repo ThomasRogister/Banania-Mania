@@ -6,22 +6,24 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header>
-      <Link to="/" className="header__logout">
-        <img className="header__logo_btn" src={logo_btn} alt="logo banane" />
-      </Link>
+      <div className="top_header">
+        <Link to="/" className="header__logout">
+          <img className="header__logo_btn" src={logo_btn} alt="logo banane" />
+        </Link>
+        <nav className="header__nav">
+          <Link to="/" className="header__logout">
+            Log out
+          </Link>
+          <Link to="/About" className="header__basket">
+            Panier
+          </Link>
+        </nav>
+      </div>
       <img
         className="header__logo_font"
         src={logo_font}
         alt="logo banana mania"
       />
-      <nav className="header__nav">
-        <Link to="/" className="header__logout">
-          Log out
-        </Link>
-        <Link to="/About" className="header__basket">
-          Panier
-        </Link>
-      </nav>
     </header>
   );
 }

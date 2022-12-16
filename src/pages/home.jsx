@@ -13,12 +13,14 @@ function Home() {
       <div className="home__form">
         <h3>inscription :</h3>
         <form className="signUpForm">
-          <input className="signUpEmail" type="text" placeholder="E-mail" />
-          <input
-            className="signUpPassword"
-            type="text"
-            placeholder="Password"
-          />
+          <div className="inputForm">
+            <input className="signUpEmail" type="text" placeholder="E-mail" />
+            <input
+              className="signUpPassword"
+              type="text"
+              placeholder="Password"
+            />
+          </div>
         </form>
       </div>
     </div>

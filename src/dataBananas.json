@@ -1,0 +1,23 @@
+[
+  {
+    "id": "bc6f712",
+    "name": "henry la banane",
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/680px-Banana-Single.jpg",
+    "description": "banana régulière avec de belles formes",
+    "price": "19"
+  },
+  {
+    "id": "b6f7112",
+    "name": "Bernard la grosse bien mûr!",
+    "cover": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.nicepng.com%2Fpng%2Fdetail%2F8-81656_share-this-image-funny-banana-png.png&f=1&nofb=1&ipt=f95189283e6844ca5a1447696e84aeec47b30267b5f6a7c733ac31217da8b558&ipo=images",
+    "description": "banane à ne pas mettre entre les mains d'enfants...",
+    "price": "211"
+  },
+  {
+    "id": "bc6f575",
+    "name": "coink coink",
+    "cover": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Ff6%2Ffa%2Fba%2Ff6faba7a1f0f0f56601f7bc8d497c12a.jpg&f=1&nofb=1&ipt=7c02e63183aeca0b62af0f3f901a037ea8c7e3d5416b8852327055df0d0dfb28&ipo=images",
+    "description": "bananacanard!!",
+    "price": "58"
+  }
+]
