@@ -14,7 +14,7 @@ function Products() {
           <Link
             className="bananaLink"
             key={banana.id}
-            to={"/products/" + banana.id}
+            to={"/product/" + banana.id}
           >
             <Card
               key={banana.id}
